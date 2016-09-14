@@ -8,7 +8,6 @@ echo form_open('config/save/',array('id'=>'config_form'));
 <div id="required_fields_message"><?php echo $this->lang->line('common_fields_required_message'); ?></div>
 <ul id="error_message_box"></ul>
 <legend><?php echo $this->lang->line("config_info"); ?></legend>
-
 <div class="field_row clearfix">	
 <?php echo form_label($this->lang->line('config_company').':', 'company',array('class'=>'wide required')); ?>
 	<div class='form_field'>
